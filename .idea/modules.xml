@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/imsocoket/imsocoket.iml" filepath="$PROJECT_DIR$/imsocoket/imsocoket.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jstx.iml" filepath="$PROJECT_DIR$/jstx.iml" />
+    </modules>
+  </component>
+</project>

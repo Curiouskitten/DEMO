@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#ffffff"
+    android:paddingBottom="10dp"
+    android:paddingTop="10dp"
+    android:orientation="vertical">
+    <!--时间-->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/time"
+        android:layout_gravity="center_horizontal"
+        android:background="#97c024"
+        android:gravity="center"
+        android:text="2016 3.50"
+        />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        >
+        <!--头像-->
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:id="@id/head"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/ic_launcher"
+            />
+        <!--信息-->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/outgoing"
+            android:id="@+id/content"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@id/head"
+            android:text="黑马"
+            android:textSize="20sp"
+
+            />
+
+    </RelativeLayout>
+
+</LinearLayout>
